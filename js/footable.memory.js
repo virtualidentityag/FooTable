@@ -410,7 +410,7 @@
         p.name = 'Footable Memory';
         p.init = function(ft) {
             if (is_enabled(ft)) {
-                $(ft.table).bind({
+                $(ft.table).on({
                     'footable_initialized': function(){
                         load(ft);
                     },

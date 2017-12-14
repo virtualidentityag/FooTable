@@ -80,7 +80,7 @@
      p.init = function(ft) {
          if (ft.options.bookmarkable.enabled) {
              
-             $(ft.table).bind({
+             $(ft.table).on({
                  'footable_initialized': function(){
                      var tbl_id     = ft.table.id;
                      var q_filter   = $_HASH(tbl_id + '_f');
