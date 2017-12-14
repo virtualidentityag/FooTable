@@ -2,7 +2,7 @@
   "name": "footable",
   "title": "FooTable",
   "description": "jQuery plugin to make HTML tables responsive",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "homepage": "http://themergency.com/footable/",
   "author": {
     "name": "FooPlugins",
@@ -37,14 +37,14 @@
     "jquery": ">=1.4.4"
   },
   "devDependencies": {
-    "grunt-contrib-jshint": "~0.1.1",
-    "grunt-contrib-uglify": "~0.1.1",
-    "grunt-contrib-watch": "~0.2.0",
-    "grunt-contrib-clean": "~0.4.0",
-    "grunt": "~0.4.1",
-    "grunt-contrib-less": "~0.5.2",
-    "grunt-contrib-csslint": "~0.1.2",
-    "grunt-contrib-concat": "~0.3.0"
+    "grunt-contrib-jshint": "0.1.1",
+    "grunt-contrib-uglify": "0.1.1",
+    "grunt-contrib-watch": "0.2.0",
+    "grunt-contrib-clean": "0.4.0",
+    "grunt": "0.4.1",
+    "grunt-contrib-less": "0.5.2",
+    "grunt-contrib-csslint": "0.1.2",
+    "grunt-contrib-concat": "0.3.0"
   },
   "scripts": {
     "test": "grunt test"
